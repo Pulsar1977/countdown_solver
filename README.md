@@ -1,6 +1,8 @@
 # countdown_solver
 A Python code to solve the mathematical puzzles of the game show Countdown.
 
+---
+
 Countdown is a game show, originally from France (_Des chiffres et des lettres_),
 which has been broadcast in many countries.  It consists of 'letters' rounds and
 'numbers' rounds. \
