@@ -29,8 +29,8 @@ stage of the calculation.
 
 Target: 809 \
 Numbers: 50, 75, 9, 1, 1, 5 \
-Solution: 75/5 = 15. 15 + 1 = 16. 50 x 16 = 800. 800 + 9 = 809.  Or in short:
-809 = (50 x ((75 / 5) + 1)) + 9
+Solution: 75/5 = 15. 15 + 1 = 16. 50 x 16 = 800. 800 + 9 = 809. \
+Or in short: 809 = (50 x ((75 / 5) + 1)) + 9.
 
 This Python code is designed to solve such puzzles. Given a target and 6 numbers on the
 command line, it will generate all solutions as close to the target as possible;
@@ -38,7 +38,7 @@ solutions with fewer numbers are listed first. \
 Each solution is a unique sequence of operations. Solutions that differ only
 by commutative operations (a + b versus b + a; a x b versus b x a) are only listed once,
 contrary to solutions that differ by associative operations
-(solutions involving (a + (b + c)) and ((a + b) + c) will both be listed).
+(e.g. solutions involving (a + (b + c)) and ((a + b) + c) will both be listed).
 Trivial operations (multiplying or dividing by 1, operations involving 0) are excluded.
 
 ---
